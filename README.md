@@ -14,6 +14,7 @@ Official maintainer of the lyra-music-bin package on the Arch User Repository.
 
 ## 🛠️ Documented Fixes
 
+### Index
 | Device / System | Component | Status | Contribution Type |
 | :--- | :--- | :--- | :--- |
 | [**Acer Aspire V3-572G**](./acer-v3-572g-audio.md) | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
