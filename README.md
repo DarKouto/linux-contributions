@@ -1,18 +1,24 @@
 # 🐧 Linux Contributions
 
-Personal log of Linux Contributions. Including hardware fixes, Nvidia boot issues, Kernel audio quirks, etc
+Personal log of Linux Contributions. Including maintaining AUR packages, hardware fixes, Nvidia boot issues, Kernel audio quirks, etc.
 
-## 🛠️ Contribution Index
+## 📦 AUR Packages
+
+### 🎵 Lyra Music Desktop (AUR)
+Official maintainer of the lyra-music-bin package on the Arch User Repository.
+- **Package URL:** [https://aur.archlinux.org/packages/lyra-music-bin](https://aur.archlinux.org/packages/lyra-music-bin)
+- **Role:** Maintainer (PKGBUILD development & system integration).
+- **Features:** Multi-resolution icon support, FUSE2 integration, and KDE Plasma desktop optimization.
+
+---
+
+## 🛠️ Documented Fixes
 
 | Device / System | Component | Status | Contribution Type |
 | :--- | :--- | :--- | :--- |
 | [**Acer Aspire V3-572G**](./acer-v3-572g-audio.md) | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
 | [**Gigabyte G5 KF5**](./gigabyte-g5-kf5-audio.md) | Audio (ALC897) | **Merged (CachyOS)** | Kernel Quirk (SND_PCI_QUIRK) |
 | [**Nvidia (Laptops)**](./nvidia-cachyos-boot-freeze.md) | Boot / Power Mgmt | **Resolved** | Bug Isolation & Package Revert |
-
----
-
-## 📂 Documented Fixes
 
 ### 1. [Acer Aspire V3-572G: Headset Mic Detection](./acer-v3-572g-audio.md)
 Fixed a long-standing issue where the combo jack failed to detect external microphones or created "ghost" devices.
