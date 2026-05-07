@@ -5,7 +5,7 @@ Personal log of Linux Contributions. Including maintaining AUR packages, hardwar
 ## 📦 AUR Packages
 
 ### 🎵 Lyra Music Desktop (AUR)
-I Created a PKGBUILD based on the AppImage version on the official repo: https://github.com/Lyra-Music-App/Lyra-Desktop-Releases
+I Created a PKGBUILD for the AppImage version of the **Lyra Music App** on the official repo: https://github.com/Lyra-Music-App/Lyra-Desktop-Releases
 
 I asked the main developer [marf](https://github.com/marf) permission to upload the AUR version, which was granted.
 
