@@ -5,9 +5,12 @@ Personal log of Linux Contributions. Including maintaining AUR packages, hardwar
 ## 📦 AUR Packages
 
 ### 🎵 Lyra Music Desktop (AUR)
-Official maintainer of the lyra-music-bin package on the Arch User Repository.
+I Created a PKGBUILD based on the AppImage version on the official repo: https://github.com/Lyra-Music-App/Lyra-Desktop-Releases
+
+I asked the main developer [marf](https://github.com/marf) permission to upload the AUR version, which was granted.
+
 - **Package URL:** [https://aur.archlinux.org/packages/lyra-music-bin](https://aur.archlinux.org/packages/lyra-music-bin)
-- **Role:** Maintainer (PKGBUILD development & system integration).
+- **Role:** Official maintainer of the lyra-music-bin package on the Arch User Repository. PKGBUILD development & system integration
 - **Features:** Multi-resolution icon support, FUSE2 integration, and KDE Plasma desktop optimization.
 
 ---
